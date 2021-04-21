@@ -9,12 +9,30 @@
 <body>
     <div>
     <div id="Header" >
-        <img src="assests/images/logo.png" alt="Logo" height="100" width="150">
+        <a href="index.html"><img src="assests/images/logo.png" alt="Logo" height="100" width="150"></a>
         <a href="login.html">Login</a>
         </div>    
         <div>
                 <div><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""></div>
-                <a href="payment.html">Book Now</a>
+                <form action="payment.html" method="GET">
+                    <label for="adults">Adults:</label>
+                    <input type="number" name="adults" min="1">
+                    <br>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name">
+                    <br>
+                    <label for="fromDate">From Date:</label>
+                    <input type="date" name="fromDate">
+                    <br>
+                    <label for="toDate">To Date:</label>
+                    <input type="date" name="toDate">
+                    <br>
+                    <label for="total">Total:</label>
+                    <input type="text" disabled>
+                    <br>
+                    <input type="submit" value="Book Now">     
+                </form>
+               
                 <div><h1>Radisson Blue Hotel</h1></div>
                 <h4>Rating</h4>
                 <div>5 Star</div>
