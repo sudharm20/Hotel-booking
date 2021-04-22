@@ -2,6 +2,8 @@ body
 {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 
 }
 .socialImage
@@ -24,4 +26,18 @@ body
 {
     width: 250px;
     height: 200px;
+}
+.hotel-card
+{
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 40%;
+}
+header
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
 }

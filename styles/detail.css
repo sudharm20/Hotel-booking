@@ -2,11 +2,14 @@
 {
     height: 100%;
     width: 100%;
+ 
 }
 body
 {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 }
 .socialImage
 {
@@ -22,4 +25,16 @@ body
 {
     width: 500px;
     height: 500px;
+}
+header
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+#detailCard
+{
+    margin: 1% 4% 2% 4%;
 }

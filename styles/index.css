@@ -2,12 +2,16 @@ body
 {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 
 }
 .cityImage
 {
     width: 150px;
     height: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 .socialImage
 {
@@ -23,4 +27,32 @@ body
 {
     height: 100%;
     width: 100%;
+}
+header
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+#search
+{
+    background-image:url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+                height: 380px;
+                width: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                -ms-background-position-x: center;
+                -ms-background-position-y: center;
+                background-position: center ;
+                overflow: hidden;
+}
+#city-view
+{
+    margin: 0 15% 0 15%;
+}
+.img-detail
+{
+    margin: 2%;
 }

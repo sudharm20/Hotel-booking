@@ -7,6 +7,8 @@ body
 {
     height: 100%;
     width: 100%;
+    margin: 0%;
+    background-color: #e0e0e0;
 }
 .socialImage
 {
@@ -22,4 +24,32 @@ body
 {
     width: 500px;
     height: 500px;
+}
+header
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+#hotel
+{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    justify-content: center;
+    margin:2% auto ;
+    
+}
+#custInfo
+{
+    margin: 2%;
+}
+#tarrif
+{
+    margin: 2%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 1% 2%;
 }
