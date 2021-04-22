@@ -1,0 +1,27 @@
+body
+{
+    height: 100%;
+    width: 100%;
+
+}
+.socialImage
+{
+    width: 22px;
+    height: 20px;
+}
+.headLogo
+{
+    height: 60px;
+    width: 60px;
+}
+#Main
+{
+    height: 100%;
+    width: 100%;
+
+}
+.list-image
+{
+    width: 250px;
+    height: 200px;
+}

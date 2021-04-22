@@ -1,0 +1,26 @@
+body
+{
+    height: 100%;
+    width: 100%;
+
+}
+.cityImage
+{
+    width: 150px;
+    height: 150px;
+}
+.socialImage
+{
+    width: 22px;
+    height: 20px;
+}
+.headLogo
+{
+    height: 60px;
+    width: 60px;
+}
+#mainContainer
+{
+    height: 100%;
+    width: 100%;
+}

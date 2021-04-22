@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/detail.css">
 
 </head>
 <body>
-    <div>
-    <div id="Header" >
-        <a href="index.html"><img src="assests/images/logo.png" alt="Logo" height="100" width="150"></a>
-        <a href="login.html">Login</a>
-        </div>    
+    <div id="mainContainer">
+        <header>
+            <img class="headLogo" src="assests/images/logo.png" alt="Logo">
+            <a href="login.html">Login</a>
+        </header>   
         <div>
-                <div><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""></div>
+                <div><img id="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""></div>
                 <form action="payment.html" method="GET">
                     <label for="adults">Adults:</label>
-                    <input type="number" name="adults" min="1">
+                    <input type="number" name="adults" min="1" required>
                     <br>
                     <label for="name">Name:</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required>
                     <br>
                     <label for="fromDate">From Date:</label>
-                    <input type="date" name="fromDate">
+                    <input type="date" name="fromDate" required>
                     <br>
                     <label for="toDate">To Date:</label>
-                    <input type="date" name="toDate">
+                    <input type="date" name="toDate" required>
                     <br>
                     <label for="total">Total:</label>
-                    <input type="text" disabled>
+                    <input type="text" disabled required>
                     <br>
                     <input type="submit" value="Book Now">     
                 </form>
@@ -49,13 +50,15 @@
                 <p>From Sleep and Food to Service, Feel the Radisson Blu Difference. We Make Your Every Moment Matter. Best Online Rate Guaranteed. Book Online Now! Best Rates Family Getaway. Breakfast Included. Free Wifi. Book Early to Save. On-Site Dining.</p>
             </div>
         </div>
-        <div>
-            <a href="www.facebook.com"><img src="assests/images/facebook.png" alt="" height="20px" width="22px"></a>
-            <a href="www.instagram.com"><img src="assests/images/instagram.png" alt="" height="20px" width="22px"></a>
-            <a href="www.twitter.com"><img src="assests/images/twitter.png" alt="" height="20px" width="22px"></a>
-        </div>
-        <div> &copy; 2020 ROOM SEARCH PVT.LTD. </div>
-        </div>
+        <footer>
+            <a href="contact.html">Contact Us</a>
+            <div>
+                <a  href="www.facebook.com"><img class="socialImage" src="assests/images/facebook.png" alt="" ></a>
+                <a  href="www.instagram.com"><img class="socialImage" src="assests/images/instagram.png" alt="" ></a>
+                <a  href="www.twitter.com"><img class="socialImage" src="assests/images/twitter.png" alt="" ></a>
+            </div>
+            <div> &copy; 2020 ROOM SEARCH PVT.LTD. </div>
+        </footer>
     </div>    
   
 </body>
