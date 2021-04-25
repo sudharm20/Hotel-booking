@@ -1,44 +1,30 @@
-
-body
-{
+body {
     width : 100%;
     height: 100%;
     margin:0px;
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
-
+    
 }
-#Main
-{
+#full{
     margin-top: 80px;
-    margin-bottom: 80px;
+    
 }
-.socialImage
-{
-    width: 22px;
-    height: 20px;
-    margin-top: 15px;
-}
-.headLogo
-{
-    height: 60px;
-    width: 60px;
-}
-
-.list-image
-{
+.hotelImage {
     height: 250px;
     width: 250px;
+
 }
-.hotel-card
-{
-    margin: 2%;
-    background-color: rgb(132,136,139);
-    width: 50%;
-    height: auto;
+.logo {
+    height:60px; 
+    width:60px;
 }
-header
-{
+.socialLogo {
+    height :20px;
+    width : 22px;
+    margin-top:15px;
+}
+header {
     background-color: rosybrown;
     position: fixed;
     top: 0;
@@ -46,15 +32,21 @@ header
     width: 100%;
     height:auto;
 }
-footer
-{
-    width: 100%;
+footer {
     background-color: rosybrown;
+    width: 100%;
     bottom: 0;
     position: fixed;
     height: auto;
     top:auto;
 }
+.contentDiv {
+    margin: 2%;
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: auto;
+}
+
 .login {
     position: absolute;
     top: 15px;
@@ -67,7 +59,7 @@ footer
     text-decoration: none;
     padding-left: 42%;
     padding-right: 2%;
-
+    
 }
 #linkSty{
     text-decoration: none;
@@ -84,11 +76,11 @@ footer
 .row{
     display: flex;
     padding: 10px;
-
+   
 }
 .column {
     flex: 55%;
-
+    
 }
 .map{
     display: none;
