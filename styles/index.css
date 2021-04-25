@@ -1,9 +1,20 @@
+#mainContainer
+{
+                width : 100%;
+                height: 100%;
+                margin: 0px;
+                position:absolute;
+                top:50px;
+}
 body
 {
     height: 100%;
     width: 100%;
     margin: 0%;
     background-color: #e0e0e0;
+    overflow: auto;
+    bottom:100px;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 .cityImage
@@ -12,29 +23,55 @@ body
     height: 150px;
     padding: 4%;
     border-radius: 25%;
+
 }
 .socialImage
 {
     width: 22px;
     height: 20px;
+    margin-top: 20px;
 }
 .headLogo
 {
     height: 60px;
     width: 60px;
+    vertical-align: middle;
 }
-#mainContainer
+#boxStyle {
+    margin: 15% 35%;
+    border-radius: 12px;
+    border:1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    width: 30%;
+}
+.login
 {
-    height: 100%;
-    width: 100%;
+    position: absolute;
+                top: 15px;
+                right: 5px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
 }
 header
 {
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:auto;
 }
 footer
 {
+    width: 100%;
     background-color: rosybrown;
+    bottom: 0;
+    position: fixed;
+    height: auto;
+    top:auto;
 }
 #search
 {
@@ -47,12 +84,34 @@ footer
                 -ms-background-position-y: center;
                 background-position: center ;
                 overflow: hidden;
+                
 }
 #city-view
 {
-    margin: 0 15% 0 15%;
+    margin: 0 12% 0 12%;
+    align-items: center;
 }
+#boxStyle {
+    margin: 15% 35%;
+    border-radius: 12px;
+    border:1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    width: 30%;
+}   
 .img-detail
 {
     margin: 2%;
 }
+#contactus{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+
+

@@ -2,6 +2,8 @@
 {
     height: 100%;
     width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 body
 {
@@ -9,11 +11,13 @@ body
     width: 100%;
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .socialImage
 {
     width: 22px;
     height: 20px;
+    margin-top:15px;
 }
 .headLogo
 {
@@ -25,13 +29,21 @@ body
     width: 500px;
     height: 500px;
 }
-header
-{
+header {
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:auto;
 }
-footer
-{
+footer {
     background-color: rosybrown;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: auto;
+    top:auto;
 }
 #hotel
 {
@@ -52,4 +64,29 @@ footer
     border: black solid 1px;
     border-radius: 5px;
     padding: 1% 2%;
+}
+#linkSty{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#contactus{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.login {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#linkSty{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

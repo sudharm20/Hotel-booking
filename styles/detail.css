@@ -2,6 +2,8 @@
 {
     height: 100%;
     width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
  
 }
 body
@@ -10,11 +12,24 @@ body
     width: 100%;
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+
 }
+.login
+{
+    position: absolute;
+                top: 15px;
+                right: 5px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+}
+
 .socialImage
 {
     width: 22px;
     height: 20px;
+    margin-top:15px;
 }
 .headLogo
 {
@@ -29,12 +44,38 @@ body
 header
 {
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:auto;
+  
 }
 footer
 {
     background-color: rosybrown;
+                width: 100%;
+                bottom: 0;
+                position: fixed;
+                height: auto;
+                top:auto;
 }
 #detailCard
 {
     margin: 1% 4% 2% 4%;
+}
+.login {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#contactus{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align: middle;
 }
