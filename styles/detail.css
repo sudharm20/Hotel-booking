@@ -86,7 +86,6 @@ header
     justify-content: space-between;
     z-index: 10;
 }
-
 footer
 {
     height: 80px;
@@ -174,7 +173,6 @@ footer
 {
     width: 60%;
 }
-
 .formStyle{
     margin-right: 4%;
     margin-left: 4%;
