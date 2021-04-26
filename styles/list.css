@@ -1,110 +1,152 @@
-body {
-    width : 100%;
-    height: 100%;
-    margin:0px;
+button {
+    /* border-radius: 0; */
+    border: none;
     background-color: #e0e0e0;
-    font-family: 'Ubuntu', sans-serif;
-    
 }
-#full{
-    margin-top: 80px;
-    
+button:active{
+    border: none;
 }
-.hotelImage {
-    height: 250px;
-    width: 250px;
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
 
+.checked {
+  color: orange;
 }
-.logo {
-    height:60px; 
-    width:60px;
+.halfChecked {
+    background: linear-gradient(
+            to right, orange 30%, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
 }
-.socialLogo {
-    height :20px;
-    width : 22px;
-    margin-top:15px;
+
+.modal-header, h4, .close {
+    text-align: left;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: white;
+     text-align: left;
+  }
+  .modal-backdrop.show {
+    opacity: 0;
 }
-header
-{
-    background-color: rosybrown;
+.modal-backdrop {
     position: fixed;
     top: 0;
-    left:0;
-    width: 100%;
-    height:auto;
-    display: flex;
-    justify-content: space-between;
-}
-header>*:first-child {
-    margin-left: 1%;
-}
-header>*:last-child {
-    margin-right: 1%;
-}
-footer
-{
-    height: 80px;
-    width: 100%;
-    background-color: rosybrown;
-    bottom: 0;
-    position: fixed;
-    top:auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    
-}
-footer>*:first-child {
-    margin-left: 2%;
+    left: 0;
+    z-index: 1040;
+    width: 0;
+    height: 0;
+    background-color: #000;
 }
 
-footer>*:last-child {
-    margin-right: 2%;
-}
-.contentDiv {
-    margin: 2%;
-    background-color: rgb(132,136,139);
-    width: 50%;
-    height: auto;
-    display: flex;
-}
+            body {
+                width : 100%;
+                height: 100%;
+                margin:0px;
+                background-color: #e0e0e0;
+                font-family: 'Ubuntu', sans-serif;
+                
+                
+            }
+            #full{
+                margin-top: 80px;
+                margin-bottom: 100px;
+                
+                
+            }
+            .hotelImage {
+                height: 200px;
+                width: 250px;
+                align-self: flex-start;
+            
+            }
 
-.login {
-    position: absolute;
-    top: 15px;
-    right: 5px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.view {
-    text-decoration: none;
-    padding-left: 42%;
-    padding-right: 2%;
-    
-}
-#linkSty{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-#contactus{
-    position: relative;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    vertical-align: middle;
-}
-.row{
-    display: flex;
-    padding: 10px;
-   
-}
-.column {
-    flex: 55%;
-    
-}
-.map{
-    display: none;
-}
+            .logo {
+                height:60px; 
+                width:60px;
+            }
+
+            .socialLogo {
+                height :20px;
+                width : 22px;
+            }
+
+            header {
+                background-color: rosybrown;
+                position: fixed;
+                top: 0;
+                left:0;
+                width: 100%;
+                height:10%;
+                display: flex;
+                justify-content: space-between;
+                
+                }
+
+            footer {
+                background-color: rosybrown;
+                width: 100%;
+                bottom: 0;
+                position: fixed;
+                height: auto;
+            	top:auto;
+                display: flex;
+                justify-content:space-between;
+                vertical-align: middle;
+                padding: 1%;
+                
+             }
+             
+            .contentDiv {
+                margin: 5%;
+                background-color:lightgrey;
+                width: 250px;
+                height: 200px;
+                display: flex;
+                flex: 30%;   
+            
+            }
+
+            .contentDiv:hover{
+                background-color: rosybrown;
+            }
+
+            .column {
+                display: flex;
+            flex-wrap: wrap;
+            }
+
+            .textRight {
+                flex: 1 1 auto;
+                margin: 5%;
+                justify-content: center;
+            }
+ 
+           .login {
+                position: absolute;
+                top: 15px;
+                right: 5px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+            .view {
+                text-decoration: none;
+                padding-left: 42%;
+                padding-right: 2%;
+                
+            }
+
+            #linkSty{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
