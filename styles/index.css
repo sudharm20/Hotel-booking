@@ -4,7 +4,7 @@
                 height: 100%;
                 margin: 0px;
                 position:absolute;
-                top:50px;
+                
 }
 body
 {
@@ -15,6 +15,7 @@ body
     overflow: auto;
     bottom:100px;
     font-family: 'Ubuntu', sans-serif;
+    display:flex;
 
 }
 .cityImage
@@ -25,6 +26,7 @@ body
     padding: 4%;
     border-radius: 25%;
     box-shadow:10px 10px 10px 0px gray;
+    
 
 
 }
@@ -36,6 +38,27 @@ body
         
         
 }
+.modal-header, h4, .close {
+    text-align: left;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: white;
+     text-align: left;
+  }
+  .modal-backdrop.show {
+    opacity: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 0;
+    height: 0;
+    background-color: #000;
+}
+
 
 .socialImage
 {
@@ -65,9 +88,11 @@ body
 }
 .headLogo
 {
-    height: 60px;
-    width: 60px;
+    height:60px; 
+    width:60px;
     vertical-align: middle;
+    margin: 1%;
+    margin-top:0;
 }
 #boxStyle {
     margin: 15% 35%;
@@ -81,22 +106,23 @@ body
 .login
 {
     position: absolute;
-                top: 15px;
-                right: 5px;
-                text-decoration: none;
-                color: black;
-                font-weight: bold;
+    top: 15px;
+    right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
 }
 header
 {
     background-color: rosybrown;
-    position: fixed;
     top: 0;
     left:0;
     width: 100%;
-    height:auto;
+    height:10%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 }
 header>*:first-child {
     margin-left: 1%;
@@ -106,15 +132,16 @@ header>*:last-child {
 }
 footer
 {
-    height: 80px;
-    width: 100%;
     background-color: rosybrown;
+    width: 100%;
     bottom: 0;
     position: fixed;
+    height: auto;
     top:auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    vertical-align: middle;
+    padding: 1%;
 
     
 }
@@ -146,6 +173,7 @@ footer>*:last-child {
     align-items: center;
     justify-content: space-around;
     padding-top: 2%;
+    margin-left: 5%; 
 }
 
 #boxStyle {
