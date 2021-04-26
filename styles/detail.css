@@ -2,10 +2,41 @@
 {
     height: 100%;
     width: 100%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+
+    margin-bottom: 100px;
  
 }
+.checked {
+    color: orange;
+  }
+  .halfChecked {
+      background: linear-gradient(
+              to right, orange 30%, #eedd44);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+  }
+  
+  
+  .modal-header, h4, .close {
+      text-align: left;
+      font-size: 30px;
+    }
+    .modal-footer {
+      background-color: white;
+       text-align: left;
+    }
+    .modal-backdrop.show {
+      opacity: 0;
+  }
+  .modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1040;
+      width: 0;
+      height: 0;
+      background-color: #000;
+  }
 body
 {
     height: 100%;
@@ -13,6 +44,7 @@ body
     margin: 0%;
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
+    display: flex;
 
 }
 .login
@@ -25,7 +57,7 @@ body
                 font-weight: bold;
 }
 
-.socialImage
+.socialLogo
 {
     width: 22px;
     height: 20px;
@@ -36,29 +68,25 @@ body
     height: 60px;
     width: 60px;
 }
-#hotelImage
+.hotelImage
 {
     width: 500px;
     height: 400px;
-    margin: auto;
+    margin: 7% 4% 0% 4%;
 }
 header
 {
     background-color: rosybrown;
-    position: fixed;
+    position: sticky;
     top: 0;
     left:0;
     width: 100%;
     height:auto;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
-header>*:first-child {
-    margin-left: 1%;
-}
-header>*:last-child {
-    margin-right: 1%;
-}
+
 footer
 {
     height: 80px;
@@ -68,18 +96,14 @@ footer
     position: fixed;
     top:auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+   
+    z-index: 10;
 
     
 }
-footer>*:first-child {
-    margin-left: 2%;
-}
 
-footer>*:last-child {
-    margin-right: 2%;
-}
 #detailCard
 {
     margin: 1% 4% 2% 4%;
@@ -132,12 +156,29 @@ footer>*:last-child {
     padding: 2%;
 }
 .submitstyle {
+    height: 50px;
+    width: 120px;
     padding: 1% 2%;
     margin-left: 45%;
     margin-top: 2%;
-    margin-bottom: 2%;  
+    margin-bottom: 2%; 
+    border-color: green;
+                color: green;
+                border-radius: 5%; 
+}
+.submitstyle:hover {
+    color: white;
+    background-color: green;
 }
 .boxWidth
 {
     width: 60%;
+}
+
+.formStyle{
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+
+    
 }

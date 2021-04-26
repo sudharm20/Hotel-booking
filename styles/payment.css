@@ -24,6 +24,35 @@ body
     height: 60px;
     width: 60px;
 }
+
+h3
+{
+    font-size: 250%;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header, h4, .close {
+    text-align: left;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: white;
+     text-align: left;
+  }
+  .modal-backdrop.show {
+    opacity: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 0;
+    height: 0;
+    background-color: #000;
+}
 .hotelImage
 {
     height: 250px;
@@ -56,7 +85,6 @@ footer {
     display: flex;
     left:0;
     justify-content:space-between;
-    vertical-align: middle;
     padding:1%;
     
  }
@@ -123,13 +151,7 @@ footer {
     font-weight: bold;
 }
 .detailsColumn{
-    display: flex;
-    flex-direction: column;
-    justify-content: first baseline;
-    margin:2%;
+    
+    margin:5%;
     width:100%;
-    padding-right: 10%;
-    
-    
-
 }
