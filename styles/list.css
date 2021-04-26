@@ -24,27 +24,50 @@ body {
     width : 22px;
     margin-top:15px;
 }
-header {
+header
+{
     background-color: rosybrown;
     position: fixed;
     top: 0;
     left:0;
     width: 100%;
     height:auto;
+    display: flex;
+    justify-content: space-between;
 }
-footer {
-    background-color: rosybrown;
+header>*:first-child {
+    margin-left: 1%;
+}
+header>*:last-child {
+    margin-right: 1%;
+}
+footer
+{
+    height: 80px;
     width: 100%;
+    background-color: rosybrown;
     bottom: 0;
     position: fixed;
-    height: auto;
     top:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+footer>*:first-child {
+    margin-left: 2%;
+}
+
+footer>*:last-child {
+    margin-right: 2%;
 }
 .contentDiv {
     margin: 2%;
     background-color: rgb(132,136,139);
     width: 50%;
     height: auto;
+    display: flex;
 }
 
 .login {

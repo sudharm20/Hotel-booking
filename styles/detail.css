@@ -39,7 +39,8 @@ body
 #hotelImage
 {
     width: 500px;
-    height: 500px;
+    height: 400px;
+    margin: auto;
 }
 header
 {
@@ -49,16 +50,35 @@ header
     left:0;
     width: 100%;
     height:auto;
-  
+    display: flex;
+    justify-content: space-between;
+}
+header>*:first-child {
+    margin-left: 1%;
+}
+header>*:last-child {
+    margin-right: 1%;
 }
 footer
 {
+    height: 80px;
+    width: 100%;
     background-color: rosybrown;
-                width: 100%;
-                bottom: 0;
-                position: fixed;
-                height: auto;
-                top:auto;
+    bottom: 0;
+    position: fixed;
+    top:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+footer>*:first-child {
+    margin-left: 2%;
+}
+
+footer>*:last-child {
+    margin-right: 2%;
 }
 #detailCard
 {
@@ -78,4 +98,46 @@ footer
     color: black;
     font-weight: bold;
     vertical-align: middle;
+}
+.hotel-form {
+    width:100%;
+    margin:0;
+    padding: 2%;
+    height:50%;
+    box-sizing: border-box;
+    display: flex;
+}
+.box1 {
+    width: 60%;
+     height: auto;
+    border: 2px solid black;
+    float:right;
+    display: flex;
+    justify-content: center;
+}
+.box2 {
+    width: 40%;
+    height: 100%;
+    float:left;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.labelStyle {
+    margin: 2%;
+    height:max-content;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.submitstyle {
+    padding: 1% 2%;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;  
+}
+.boxWidth
+{
+    width: 60%;
 }

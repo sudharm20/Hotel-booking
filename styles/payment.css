@@ -13,7 +13,7 @@ body
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
-.socialImage
+.socialLogo
 {
     width: 22px;
     height: 20px;
@@ -24,10 +24,14 @@ body
     height: 60px;
     width: 60px;
 }
-#hotelImage
+.hotelImage
 {
-    width: 500px;
-    height: 500px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    float:left;
+    flex: 40%;
 }
 header {
     background-color: rosybrown;
@@ -35,8 +39,13 @@ header {
     top: 0;
     left:0;
     width: 100%;
-    height:auto;
-}
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    }
+
 footer {
     background-color: rosybrown;
     width: 100%;
@@ -44,7 +53,13 @@ footer {
     position: fixed;
     height: auto;
     top:auto;
-}
+    display: flex;
+    left:0;
+    justify-content:space-between;
+    vertical-align: middle;
+    padding:1%;
+    
+ }
 #hotel
 {
     background-color: rgb(132,136,139);
@@ -58,12 +73,29 @@ footer {
 {
     margin: 2%;
 }
-#tarrif
+.info {
+    background-color: rgb(132,136,139);
+    max-width: 60%;
+    min-width: 25%;
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    display: flex;
+    flex: 100%;
+    
+}
+.tarrif
 {
     margin: 2%;
-    border: black solid 1px;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
 }
 #linkSty{
     text-decoration: none;
@@ -89,4 +121,15 @@ footer {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+.detailsColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    margin:2%;
+    width:100%;
+    padding-right: 10%;
+    
+    
+
 }

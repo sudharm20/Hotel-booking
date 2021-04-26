@@ -15,30 +15,46 @@
             <a href = "login.html" target="_blank" class="login">Login</a>
         </header>   
         <div id="detailCard">
-                <div><img id="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""></div>
+                <div class="hotel-form">
+
+                <div class="box1"><img id="hotelImage" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""></div>
+
+                <div class="box2">
                 <form action="payment.html" method="GET">
+                    <div class="labelStyle">
                     <label for="adults">Adults:</label>
-                    <input type="number" name="adults" min="1" required>
+                    <input type="number" name="adults" min="1" required class="boxWidth">
+                </div> 
                     <br>
+                 
+                <div class="labelStyle">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" required class="boxWidth">
+                </div>
                     <br>
+                    <div class="labelStyle">
                     <label for="fromDate">From Date:</label>
-                    <input type="date" name="fromDate" required>
+                    <input type="date" name="fromDate" required class="boxWidth">
+                </div> 
                     <br>
+                    <div class="labelStyle">
                     <label for="toDate">To Date:</label>
-                    <input type="date" name="toDate" required>
+                    <input type="date" name="toDate" required class="boxWidth">
+                </div> 
                     <br>
+                    <div class="labelStyle">
                     <label for="total">Total:</label>
                     <input type="text" disabled required>
+                </div> 
                     <br>
-                    <input type="submit" value="Book Now">     
+                    <input type="submit" value="Book Now" class="submitstyle">     
                 </form>
-               
+            </div>
+            </div>
                 <div><h1>Radisson Blue Hotel</h1></div>
-                <h4>Rating</h4>
+                <h4 style="font-family: cursive;">Rating</h4>
                 <div>5 Star</div>
-                <h3>AMENITIES</h3>
+                <h3 style="font-family: cursive;">AMENITIES</h3>
                 <ul>
                     <li>Room Service</li>
                     <li>Restaurant</li>
@@ -47,18 +63,18 @@
                     <li>Pool</li>
 
                 </ul>    
-                <h3>Description</h3>
+                <h3 style="font-family: cursive;">Description</h3>
                 <p>From Sleep and Food to Service, Feel the Radisson Blu Difference. We Make Your Every Moment Matter. Best Online Rate Guaranteed. Book Online Now! Best Rates Family Getaway. Breakfast Included. Free Wifi. Book Early to Save. On-Site Dining.</p>
             </div>
         </div>
         <footer>
-            <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
-            <span style="padding-left: 85%;">
-            <a href = "https://www.facebook.com" target="_blank"><img class ="socialImage" src = "assests/images/facebook.png"  alt ="facebooklogo"></a>
-            <a href = "https://www.instagram.com" target="_blank"><img class ="socialImage" src = "assests/images/instagram.png" alt ="instagramlogo"></a>
-            <a href = "https://www.twitter.com" target="_blank"><img class ="socialImage" src = "assests/images/twitter.png" alt ="twitterlogo"></a>
-            </span>
-            <span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
+            <span><a href="contact.html" id="contactus">Contact Us</a></span>
+            <span>&copy; 2020 ROOM SEARCH PVT.LTD.</span>
+            <div>
+                <a  href="www.facebook.com"><img class="socialImage" src="assests/images/facebook.png" alt="" ></a>
+                <a  href="www.instagram.com"><img class="socialImage" src="assests/images/instagram.png" alt="" ></a>
+                <a  href="www.twitter.com"><img class="socialImage" src="assests/images/twitter.png" alt="" ></a></div>
+            </div>
         </footer>
     </div>    
   
